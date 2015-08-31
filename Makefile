@@ -9,7 +9,7 @@ test-carthage:
 	carthage build --verbose --no-skip-current | xcpretty
 
 test-cocoapods:
-	pod spec lint --allow-warnings
+	pod lib lint $(project).podspec
 
 bootstrap:
 	bundle install
