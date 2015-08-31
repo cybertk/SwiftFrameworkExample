@@ -3,7 +3,7 @@ project = MyProject
 test: test-unit test-carthage test-cocoapods
 
 test-unit:
-	xcodebuild test -scheme $(project) -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty
+	xcodebuild test -scheme $(project) -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO OBJROOT=$(PWD)/build SYMROOT=$(PWD)/build | xcpretty
 
 test-carthage:
 	carthage build --verbose --no-skip-current | xcpretty
@@ -16,8 +16,8 @@ bootstrap:
 	# Cannot brew install carthage on Travis-CI
 	# brew update
 	# brew install carthage
-	# curl -OL https://github.com/Carthage/Carthage/releases/download/0.7.5/Carthage.pkg
-	# sudo /usr/sbin/installer -pkg Carthage.pkg -target /
+	curl -OL https://github.com/Carthage/Carthage/releases/download/0.8/Carthage.pkg
+	sudo /usr/sbin/installer -pkg Carthage.pkg -target /
 
 deps:
 	carthage bootstrap --verbose | xcpretty
