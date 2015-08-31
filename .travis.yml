@@ -1,5 +1,7 @@
 language: objective-c
 os: osx
 osx_image: xcode7
+before_script:
+    - 'make deps'
 script:
     - 'make test'
