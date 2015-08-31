@@ -38,7 +38,7 @@ import_certs ()
     for c in $SCRIPT_DIR/certificates/*.p12;
     do
         [ "$c" = "$SCRIPT_DIR/certificates/*.p12" ] && break
-        security import "$c" -k "$KEYCHAIN" $security_opts -T /usr/bin/codesign
+        security import "$c" -k "$KEYCHAIN" -P "$KEY_PASSWORD" -T /usr/bin/codesign
     done
 }
 
