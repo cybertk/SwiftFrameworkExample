@@ -3,7 +3,7 @@ project = MyProject
 test: test-unit test-carthage test-cocoapods
 
 test-unit:
-	xcodebuild test -scheme $(project) -sdk iphonesimulator9.0 ONLY_ACTIVE_ARCH=NO OBJROOT=$(PWD)/build SYMROOT=$(PWD)/build | xcpretty
+	xcodebuild test -scheme $(project) -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty
 
 test-carthage:
 	carthage build --verbose --no-skip-current | xcpretty
