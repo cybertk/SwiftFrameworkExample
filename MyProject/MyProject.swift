@@ -9,14 +9,20 @@ import UIKit
 
 public class MyProject {
     
-    // MARK: Properties
+    // MARK: Internal Properties
     
-    private var someProperty: String
+    var someProperty: String
+    
+    // MARK: APIs
+    
+    public func hello() -> String {
+        return someProperty
+    }
     
     // MARK: Initilizers
     
     public init() {
-        someProperty = "s"
+        someProperty = "a string"
     }
 }
 
