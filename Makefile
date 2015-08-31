@@ -1,3 +1,4 @@
+SHELL = /bin/bash -o pipefail
 project = MyProject
 
 test: test-unit test-carthage test-cocoapods
