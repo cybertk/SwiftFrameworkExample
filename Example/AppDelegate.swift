@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Example
 //
-//  Copyright © 2015 example-org. All rights reserved.
+//  Copyright © 2015 cybertk. All rights reserved.
 //
 
 import UIKit

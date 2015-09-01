@@ -3,13 +3,13 @@
 //  UnitTests
 //
 //  Created by generator-swift-framework on 8/26/15.
-//  Copyright © 2015 example-org. All rights reserved.
+//  Copyright © 2015 cybertk. All rights reserved.
 //
 
 import XCTest
 import Nimble
 
-@testable import MyProject
+@testable import SwiftFrameworkExample
 
 class UnitTests: XCTestCase {
     
@@ -24,7 +24,7 @@ class UnitTests: XCTestCase {
     }
     
     func testInit() {
-        let p = MyProject()
+        let p = SwiftFrameworkExample()
         expect(p.someProperty).to(equal("a string"))
     }
     

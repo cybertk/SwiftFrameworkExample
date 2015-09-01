@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9208B45D1B8EBDE000C1631B /* MyProject.h in Headers */ = {isa = PBXBuildFile; fileRef = 9208B45C1B8EBDE000C1631B /* MyProject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9208B4641B8EBDE000C1631B /* MyProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9208B4591B8EBDE000C1631B /* MyProject.framework */; };
+		9208B45D1B8EBDE000C1631B /* SwiftFrameworkExample.h in Headers */ = {isa = PBXBuildFile; fileRef = 9208B45C1B8EBDE000C1631B /* SwiftFrameworkExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9208B4641B8EBDE000C1631B /* SwiftFrameworkExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9208B4591B8EBDE000C1631B /* SwiftFrameworkExample.framework */; };
 		9208B4691B8EBDE000C1631B /* UnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9208B4681B8EBDE000C1631B /* UnitTests.swift */; };
-		92DC99081B8EF03100350407 /* MyProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC99071B8EF03100350407 /* MyProject.swift */; settings = {ASSET_TAGS = (); }; };
+		92DC99081B8EF03100350407 /* SwiftFrameworkExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC99071B8EF03100350407 /* SwiftFrameworkExample.swift */; settings = {ASSET_TAGS = (); }; };
 		92DC990A1B9215EE00350407 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92DC99091B9215EE00350407 /* Nimble.framework */; };
 		92DC99291B93418500350407 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC99281B93418500350407 /* AppDelegate.swift */; };
 		92DC992B1B93418500350407 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC992A1B93418500350407 /* ViewController.swift */; };
 		92DC992E1B93418500350407 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92DC992C1B93418500350407 /* Main.storyboard */; };
 		92DC99301B93418500350407 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92DC992F1B93418500350407 /* Assets.xcassets */; };
 		92DC99331B93418500350407 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92DC99311B93418500350407 /* LaunchScreen.storyboard */; };
-		92DC993A1B93547600350407 /* MyProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9208B4591B8EBDE000C1631B /* MyProject.framework */; };
+		92DC993A1B93547600350407 /* SwiftFrameworkExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9208B4591B8EBDE000C1631B /* SwiftFrameworkExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,18 +26,18 @@
 			containerPortal = 9208B4501B8EBDE000C1631B /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9208B4581B8EBDE000C1631B;
-			remoteInfo = MyProject;
+			remoteInfo = SwiftFrameworkExample;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9208B4591B8EBDE000C1631B /* MyProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9208B45C1B8EBDE000C1631B /* MyProject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyProject.h; sourceTree = "<group>"; };
+		9208B4591B8EBDE000C1631B /* SwiftFrameworkExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftFrameworkExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9208B45C1B8EBDE000C1631B /* SwiftFrameworkExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftFrameworkExample.h; sourceTree = "<group>"; };
 		9208B45E1B8EBDE000C1631B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9208B4631B8EBDE000C1631B /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9208B4681B8EBDE000C1631B /* UnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTests.swift; sourceTree = "<group>"; };
 		9208B46A1B8EBDE000C1631B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		92DC99071B8EF03100350407 /* MyProject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProject.swift; sourceTree = "<group>"; };
+		92DC99071B8EF03100350407 /* SwiftFrameworkExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftFrameworkExample.swift; sourceTree = "<group>"; };
 		92DC99091B9215EE00350407 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 		92DC99261B93418500350407 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92DC99281B93418500350407 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92DC990A1B9215EE00350407 /* Nimble.framework in Frameworks */,
-				9208B4641B8EBDE000C1631B /* MyProject.framework in Frameworks */,
+				9208B4641B8EBDE000C1631B /* SwiftFrameworkExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92DC993A1B93547600350407 /* MyProject.framework in Frameworks */,
+				92DC993A1B93547600350407 /* SwiftFrameworkExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,7 +79,7 @@
 		9208B44F1B8EBDE000C1631B = {
 			isa = PBXGroup;
 			children = (
-				9208B45B1B8EBDE000C1631B /* MyProject */,
+				9208B45B1B8EBDE000C1631B /* SwiftFrameworkExample */,
 				92DC99271B93418500350407 /* Example */,
 				9208B4671B8EBDE000C1631B /* UnitTests */,
 				92DC99381B93437800350407 /* Frameworks */,
@@ -90,21 +90,21 @@
 		9208B45A1B8EBDE000C1631B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9208B4591B8EBDE000C1631B /* MyProject.framework */,
+				9208B4591B8EBDE000C1631B /* SwiftFrameworkExample.framework */,
 				9208B4631B8EBDE000C1631B /* UnitTests.xctest */,
 				92DC99261B93418500350407 /* Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9208B45B1B8EBDE000C1631B /* MyProject */ = {
+		9208B45B1B8EBDE000C1631B /* SwiftFrameworkExample */ = {
 			isa = PBXGroup;
 			children = (
-				9208B45C1B8EBDE000C1631B /* MyProject.h */,
+				9208B45C1B8EBDE000C1631B /* SwiftFrameworkExample.h */,
 				9208B45E1B8EBDE000C1631B /* Info.plist */,
-				92DC99071B8EF03100350407 /* MyProject.swift */,
+				92DC99071B8EF03100350407 /* SwiftFrameworkExample.swift */,
 			);
-			path = MyProject;
+			path = SwiftFrameworkExample;
 			sourceTree = "<group>";
 		};
 		9208B4671B8EBDE000C1631B /* UnitTests */ = {
@@ -144,16 +144,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9208B45D1B8EBDE000C1631B /* MyProject.h in Headers */,
+				9208B45D1B8EBDE000C1631B /* SwiftFrameworkExample.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		9208B4581B8EBDE000C1631B /* MyProject */ = {
+		9208B4581B8EBDE000C1631B /* SwiftFrameworkExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9208B46D1B8EBDE000C1631B /* Build configuration list for PBXNativeTarget "MyProject" */;
+			buildConfigurationList = 9208B46D1B8EBDE000C1631B /* Build configuration list for PBXNativeTarget "SwiftFrameworkExample" */;
 			buildPhases = (
 				9208B4541B8EBDE000C1631B /* Sources */,
 				9208B4551B8EBDE000C1631B /* Frameworks */,
@@ -164,9 +164,9 @@
 			);
 			dependencies = (
 			);
-			name = MyProject;
-			productName = MyProject;
-			productReference = 9208B4591B8EBDE000C1631B /* MyProject.framework */;
+			name = SwiftFrameworkExample;
+			productName = SwiftFrameworkExample;
+			productReference = 9208B4591B8EBDE000C1631B /* SwiftFrameworkExample.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9208B4621B8EBDE000C1631B /* UnitTests */ = {
@@ -213,7 +213,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
-				ORGANIZATIONNAME = example-org;
+				ORGANIZATIONNAME = cybertk;
 				TargetAttributes = {
 					9208B4581B8EBDE000C1631B = {
 						CreatedOnToolsVersion = 7.0;
@@ -226,7 +226,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9208B4531B8EBDE000C1631B /* Build configuration list for PBXProject "MyProject" */;
+			buildConfigurationList = 9208B4531B8EBDE000C1631B /* Build configuration list for PBXProject "SwiftFrameworkExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -240,7 +240,7 @@
 			projectRoot = "";
 			targets = (
 				92DC99251B93418500350407 /* Example */,
-				9208B4581B8EBDE000C1631B /* MyProject */,
+				9208B4581B8EBDE000C1631B /* SwiftFrameworkExample */,
 				9208B4621B8EBDE000C1631B /* UnitTests */,
 			);
 		};
@@ -296,7 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92DC99081B8EF03100350407 /* MyProject.swift in Sources */,
+				92DC99081B8EF03100350407 /* SwiftFrameworkExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,7 +322,7 @@
 /* Begin PBXTargetDependency section */
 		9208B4661B8EBDE000C1631B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9208B4581B8EBDE000C1631B /* MyProject */;
+			target = 9208B4581B8EBDE000C1631B /* SwiftFrameworkExample */;
 			targetProxy = 9208B4651B8EBDE000C1631B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -445,11 +445,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MyProject/Info.plist;
+				INFOPLIST_FILE = SwiftFrameworkExample/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.example.MyProject";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cybertk.SwiftFrameworkExample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -465,11 +465,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MyProject/Info.plist;
+				INFOPLIST_FILE = SwiftFrameworkExample/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.example.MyProject";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cybertk.SwiftFrameworkExample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -484,7 +484,7 @@
 				);
 				INFOPLIST_FILE = UnitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.example.UnitTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cybertk.UnitTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -498,7 +498,7 @@
 				);
 				INFOPLIST_FILE = UnitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.example.UnitTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cybertk.UnitTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -509,7 +509,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.example.MyProject.Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cybertk.SwiftFrameworkExample.Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -520,7 +520,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.example.MyProject.Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cybertk.SwiftFrameworkExample.Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -528,7 +528,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9208B4531B8EBDE000C1631B /* Build configuration list for PBXProject "MyProject" */ = {
+		9208B4531B8EBDE000C1631B /* Build configuration list for PBXProject "SwiftFrameworkExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9208B46B1B8EBDE000C1631B /* Debug */,
@@ -537,7 +537,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9208B46D1B8EBDE000C1631B /* Build configuration list for PBXNativeTarget "MyProject" */ = {
+		9208B46D1B8EBDE000C1631B /* Build configuration list for PBXNativeTarget "SwiftFrameworkExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9208B46E1B8EBDE000C1631B /* Debug */,

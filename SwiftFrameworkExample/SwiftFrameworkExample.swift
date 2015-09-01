@@ -1,13 +1,13 @@
 //
-//  MyProject.swift
-//  MyProject
+//  SwiftFrameworkExample.swift
+//  SwiftFrameworkExample
 //
-//  Copyright © 2015 example-org. All rights reserved.
+//  Copyright © 2015 cybertk. All rights reserved.
 //
 
 import UIKit
 
-public class MyProject {
+public class SwiftFrameworkExample {
     
     // MARK: Internal Properties
     

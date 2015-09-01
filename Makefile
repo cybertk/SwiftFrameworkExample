@@ -1,5 +1,5 @@
 SHELL = /bin/bash -o pipefail
-project = MyProject
+project = SwiftFrameworkExample
 
 test: test-unit test-carthage test-cocoapods
 

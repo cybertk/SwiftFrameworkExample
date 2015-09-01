@@ -1,6 +1,6 @@
-We love that you’re interested in contributing to MyProject! Any contribution is more than welcome!
+We love that you’re interested in contributing to SwiftFrameworkExample! Any contribution is more than welcome!
 
-## MyProject is simple
+## SwiftFrameworkExample is simple
 
 Please file issues or submit pull requests for anything you’d like to see! However, we make no promises that they’ll be accepted—many suggestions will be rejected to preserve simplicity.
 
@@ -21,12 +21,12 @@ make bootstrap
 Then, open the workspace in Xcode, and make your changes:
 
 ```bash
-open MyProject.xcodeproj
+open SwiftFrameworkExample.xcodeproj
 ```
 
 ## Pass Tests
 
-In order to archive best quality, MyProject has a lot tests to pursue this goal. After changed the code, it's better to update the tests accordingly and have all tests passed with the following command:
+In order to archive best quality, SwiftFrameworkExample has a lot tests to pursue this goal. After changed the code, it's better to update the tests accordingly and have all tests passed with the following command:
 
 ```bash
 make test

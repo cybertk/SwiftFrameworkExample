@@ -1,9 +1,9 @@
-# MyProject
+# SwiftFrameworkExample
 
-[![CI Status](http://img.shields.io/travis/cybertk/MyProject.svg?style=flat)](https://travis-ci.org/cybertk/MyProject)
+[![CI Status](http://img.shields.io/travis/cybertk/SwiftFrameworkExample.svg?style=flat)](https://travis-ci.org/cybertk/SwiftFrameworkExample)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![Version](https://img.shields.io/cocoapods/v/MyProject.svg?style=flat)](http://cocoapods.org/pods/MyProject)
-[![Platform](https://img.shields.io/cocoapods/p/MyProject.svg?style=flat)](http://cocoapods.org/pods/MyProject)
+[![Version](https://img.shields.io/cocoapods/v/SwiftFrameworkExample.svg?style=flat)](http://cocoapods.org/pods/SwiftFrameworkExample)
+[![Platform](https://img.shields.io/cocoapods/p/SwiftFrameworkExample.svg?style=flat)](http://cocoapods.org/pods/SwiftFrameworkExample)
 
 ## Usage
 
@@ -18,19 +18,19 @@ To run the example project, clone the repo, and open `Example` target within Xco
 
 ### Carthage
 
-MyProject is available through [Carthage](https://github.com/carthage/carthage). To install it, simply add the following line to your Cartfile:
+SwiftFrameworkExample is available through [Carthage](https://github.com/carthage/carthage). To install it, simply add the following line to your Cartfile:
 
 ```
-github "cybertk/MyProject"
+github "cybertk/SwiftFrameworkExample"
 ```
 
 ### Cocoapods
 
-MyProject is available through [CocoaPods](http://cocoapods.org). To install
+SwiftFrameworkExample is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "MyProject"
+pod "SwiftFrameworkExample"
 ```
 
 ## Author
@@ -39,4 +39,4 @@ cybertk
 
 ## License
 
-MyProject is available under the MIT license. See the [LICENSE](LICENSE) file for more info.
+SwiftFrameworkExample is available under the MIT license. See the [LICENSE](LICENSE) file for more info.

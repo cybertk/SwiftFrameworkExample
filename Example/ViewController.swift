@@ -2,12 +2,12 @@
 //  ViewController.swift
 //  Example
 //
-//  Copyright © 2015 example-org. All rights reserved.
+//  Copyright © 2015 cybertk. All rights reserved.
 //
 
 import UIKit
 
-import MyProject
+import SwiftFrameworkExample
 
 class ViewController: UIViewController {
     
@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let p = MyProject()
+        let p = SwiftFrameworkExample()
         label.text = p.hello()
     }
 
