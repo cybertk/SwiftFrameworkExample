@@ -5,8 +5,8 @@ install:
     - make bootstrap
 before_script:
     - script/cert --import
-    - 'make deps'
+    - make deps
 script:
-    - 'make test'
+    - make test
 after_script:
     - script/cert --remove

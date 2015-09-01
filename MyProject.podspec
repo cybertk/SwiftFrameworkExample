@@ -6,10 +6,10 @@ Pod::Spec.new do |s|
                        a longer description
                        DESC
 
-  s.homepage         = "https://github.com/cybertk/abao"
+  s.homepage         = "https://github.com/cybertk/MyProject"
   s.license          = "MIT"
   s.author           = "MyProject Contributors"
-  s.source           = { :git => "https://github.com/cybertk/MyProject.git", :tag => "v#{s.version}" }
+  s.source           = { :git => "https://github.com/cybertk/generator-swift-framework-example.git", :tag => "v#{s.version}" }
 
   s.platform     = :ios, "8.0"
   s.requires_arc = true
